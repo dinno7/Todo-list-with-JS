@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Todo list with js</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="w-75 mx-auto text-center">
+            <h1 id="header" class="my-3 text-light">To Do</h1>
+            <div id="actions" class="mb-4">
+                <a class="btn btn-primary" data-action="add">Add ToDo</a>
+                <a class="btn btn-success" data-action="search">Search ToDo</a>
+                <a class="btn btn-danger" data-action="clearAllBtn">Clear all</a>
+            </div>
+            <div id="form-wrapper">
+                <!-- <form id="add">
+                    <input type="text " name="add" class="form-control" placeholder="Add todos... ">
+                </form>
+                <form id="search">
+                    <input type="text " name="search" class="form-control " placeholder="Search todos... ">
+                </form> -->
+            </div>
+            <div id="list">
+                <div class="list-group mt-3" id="listTitle">
+                    <li class="list-group-item bg-dark text-light">
+                        <span class="float-left">Add something to your todo list, Like</span>
+                        <span class="float-right">👇</span>
+                    </li>
+                </div>
+
+                <ul class="list-group" id="todos-list">
+                    <li class="list-group-item">
+                        <span class="float-left">Something has been wrong, please reflesh your browser again. </span>
+                        <img class="float-right" src="./media/delete.png" alt="delete icon">
+                    </li>
+                    <!-- <li class="list-group-item">
+                    <span class="float-left">sth2</span>
+                    <img class="float-right" src="./media/delete.png" alt="delete icon">
+                </li>
+                <li class="list-group-item">
+                    <span class="float-left">sth3</span>
+                    <img class="float-right" src="./media/delete.png" alt="delete icon">
+                </li>
+                <li class="list-group-item">
+                    <span class="float-left">sth4</span>
+                    <img class="float-right" src="./media/delete.png" alt="delete icon">
+                </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js "></script>
+    <script src="js/jquery-min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+</body>
+
+</html>
